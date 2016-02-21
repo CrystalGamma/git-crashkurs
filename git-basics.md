@@ -307,7 +307,10 @@ Dies ist nur möglich, wenn dem Repository kein Arbeitsbereich zugeordnet ist.
 Es kann außerdem möglich, dass durch nebenläufige Pushes anderer Repositorien der entfernte Branch nicht mehr der Vorgänger des neuen ist.
 Hier wird normalerweise die Übertragung abgebrochen, um die nebenläufige Änderung nicht zu verlieren.
 Zum Lösen dieser Situation kann der entsprechende Zweig vor dem erneuten `push` erneut ge`pull`t werden.
+
 Alternativ, wenn die Situation durch Neuschreiben der Änderungsgeschichte entstanden ist, kann `git push --force` genutzt werden.
+Es ist allerdings generell davon abzuraten, veröffentlichte Commit-Historie neuzuschreiben, da dies andere Mitarbeiter dazu zwingt, ihre Änderungen zu transplantieren (siehe `git rebase`).
+Somit ist `git push --force` ohne weitere Koordination im Team eine schlechte Idee.
 
 ### Change Management
 Die Übertragungsweise von Änderungen ist eine wichtige Entscheidung für ein git-Projekt.
