@@ -74,7 +74,7 @@ Dies sind die sog. Referenzen.
 Die meistgenutzten Referenzen sind die, die sich bei der normalen Benutzung des Repositorys ändern. Diese nennt man lokal, da sie in den Verfügungsbereich des lokalen Repositorys fallen.
 
 #### HEAD
-Die wichtigste (aber nicht notwändigerweise bekannteste ☹) Referenz ist HEAD.
+Die wichtigste (aber nicht notwendigerweise bekannteste ☹) Referenz ist HEAD.
 Sie verweist auf einen Vorgänger-Commit des aktuellen Arbeitsbereichs.
 
 #### Branches
@@ -110,7 +110,7 @@ Bevor Daten in das Repository geschrieben werden, können/sollten/müssen einige
 Standardmäßig befinden sich keine Dateien in der Staging Area. Dies kann mit `git add` geändert werden.
 Auch bei bereits in der Staging Area befindlichen Dateien kann der Befehl benutzt werden. Hier wird die Datei in der Staging Area auf den neuen Stand gebracht.
 
-In manchen Workflows ist es notwändig, mehrere Änderungen gleichzeitig zu machen, die aber gerne getrennt übernommen werden.
+In manchen Workflows ist es notwendig, mehrere Änderungen gleichzeitig zu machen, die aber gerne getrennt übernommen werden.
 Wenn mehrere solcher Änderungen in einer Datei liegen, kann das interaktive `git add --patch` bzw. `git add -p` hilfreich sein, mit dem die Änderungen getrennt aufgenommen werden können.
 
 Alle Änderungen des Arbeitsbereichs können automatisch mit dem Kommandozeilenargument `--all` bzw. `-A` übernommen werden.
