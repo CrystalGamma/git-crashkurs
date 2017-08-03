@@ -163,7 +163,7 @@ TIPP: Analog zu Mercurial oder Subversion kann für `commit` ein Alias `ci` eing
 Menschen machen unausweichlich Fehler, und bei git können die meisten davon mit `git reset` ausgebügelt werden.
 Der Befehl besitzt 3 verschiedene Stufen: `--soft`, `--mixed`(der Standard) und `--hard`.
 
-Wenn die gesamten Änderungen seit dem letzten Commit umsonst waren, können alle von git verwalteten Dateien mit `git reset --hard` auf ihren sauberen Stand zurückgesetzt.
+Wenn die gesamten Änderungen seit dem letzten Commit umsonst waren, können alle von git verwalteten Dateien mit `git reset --hard` auf ihren sauberen Stand zurückgesetzt werden.
 Einzelne Dateien können mit `git reset --hard HEAD <pfad>` zurückgesetzt werden.
 
 Wenn versehentlich Änderungen, die für spätere Commits vorgesehen sind, in die Staging Area übernommen wurden, können sie mit `git reset HEAD <pfad>` daraus entfernt werden. Die Dateien im Arbeitsbereich bleiben unberührt.
